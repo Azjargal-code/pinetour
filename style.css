@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  width: 1440px;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(images/HeroImage.png);
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  padding: 20px;
+  color: white;
+  background-size: cover;
+}
+
+.Tour {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Home {
+  display: flex;
+  gap: 30px;
+}
+.Awaits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.magic {
+  font-size: 40px;
+  opacity: 0.6;
+}
+.goliin {
+  font-size: 70px;
+}
+.dood {
+  font-size: 40px;
+}
+.en {
+  border-radius: 100%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tab{
+  height: 512px;
+  background-image: url(./images/tab.png);
+}
+.contable{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.text{
+}
+.tsagaan {
+  background-image: url("./images/terkh.png");
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terkh {
+  background-image: url(./images/amar.png);
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.khorgo {
+  background-image: url("./images/khorgo.png");
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.khuvsgul {
+  background-image: url(./images/khuvsgul.png);
+  background-size: cover;
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  width: 1440px;
+  height: 902px;
+  background-image: url(./images/tom.png);
+  position: relative;
+}
+.Agency h3 {
+  text-align: center;
+  font-size: 42px;
+}
+.Agency p {
+  text-align: center;
+  font-size: 20px;
+}
+.title {
+  padding: 60px;
+}
+.Pack {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container {
+  background-color: #eee9d9;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
+.day {
+  width: 52px;
+  height: 52px;
+  border-radius: 0;
+  background-color: white;
+  border-radius: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Amar {
+  background-color: #8bb8c1;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
+.togoo {
+  background-color: #aad8d7;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
+.map-container-tsagaan {
+  background-color: #8bc0bd;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
+.map-containerkhuvsgul {
+  background-color: #97cce0;
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
+.img-1 {
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  display: none;
+}
+
+.map-container:hover ~ .img-1 {
+  display: block;
+}
+.img-2 {
+  position: absolute;
+  top: 300px;
+  right: 300px;
+  display: none;
+}
+.Amar:hover ~ .img-2 {
+  display: block;
+}
+.img-3 {
+  position: absolute;
+  top: 300px;
+  right: 300px;
+  display: none;
+}
+.togoo:hover ~ .img-3 {
+  display: block;
+}
+.img-4 {
+  position: absolute;
+  top: 600px;
+  right: 200px;
+  display: none;
+}
+.map-container-tsagaan:hover ~ .img-4 {
+  display: block;
+}
+.img-5 {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  display: none;
+}
+.map-containerkhuvsgul:hover ~ .img-5 {
+  display: block;
+}
+
+.price-card {
+  width: 1440px;
+  height: 1120px;
+  background-image: url(./images/suuliih.png);
+  top: 2678px;
+  left: 950px;
+}
+.Ug p {
+  text-align: center;
+  font-size: 20px;
+}
+.garchig {
+  padding: 60px;
+  font-size: 40px;
+}
+.Ug h3 {
+  text-align: center;
+}
+
+.Photos {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 527px;
+  top: 204px;
+  left: 120px;
+  gap: 24px;
+  font-size: 18px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo-1 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 30px;
+}
+.photo-1 .photo-2 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 30px;
+}
+.photo-3 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 30px;
+}
+.Photos p {
+  width: 158px;
+  height: 22px;
+}
+.image-11 {
+  padding-left: 22px;
+}
+.image-12 {
+  padding-left: 22px;
+}
+.image {
+  gap: 20px;
+}
+.car-9 {
+  padding-left: 22px;
+  gap: 20px;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  border-radius: 50px;
+}
